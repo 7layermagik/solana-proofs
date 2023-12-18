@@ -13,7 +13,7 @@ The solution here involves the usage of the Copy-on-Chain (`copy`) program which
 
 ## Background
 
-The goal of a light client is to reduce trust assumptions when using centralized RPC endpoints. Rather than relying on a RPC provider to truthfully communicate information about the particular state of certain accounts (i.e. user’s balances, bridge accounts, etc), when a RPC provider communicates certain information about Solana state, users can request further cryptographic proof and an attestation from validators to directly check its veracity. For more background on this subject and its usecases, we recommend reading this documentation about [interchain transaction verification](https://docs.solana.com/proposals/interchain-transaction-verification) from Solana Labs and this introduction to light clients by a16z.
+The goal of a light client is to reduce trust assumptions when using centralized RPC endpoints. Rather than relying on a RPC provider to truthfully communicate information about the particular state of certain accounts (i.e. user’s balances, bridge accounts, etc), when a RPC provider communicates certain information about Solana state, users can request further cryptographic proof and an attestation from validators to directly check its veracity. For more background on this subject and its usecases, we recommend reading this documentation about [interchain transaction verification](https://docs.solana.com/proposals/interchain-transaction-verification) from Solana Labs and this introduction to light clients by [a16z](https://a16zcrypto.com/posts/article/an-introduction-to-light-clients/).
 
 When we refer to the “state” of an account, we refer to the data stored in the account fields shown in the general account structure below:
 
